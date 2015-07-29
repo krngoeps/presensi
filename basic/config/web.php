@@ -37,6 +37,14 @@ $config = [
                 ],
             ],
         ],
+        
+         'view' => [
+            'theme' => [
+                'basePath' => '@app/themes/material-simple',
+                'baseUrl' => '@web/themes/material-simple',
+                'pathMap' => ['@app/views' => 'themes/material-simple'],
+            ]
+        ],
         // 'urlManager' => [
         //     'class' => 'yii\web\UrlManager',
         //     // Disable index.php
